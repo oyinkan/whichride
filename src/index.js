@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import './fonts/Brown/Brown-Bold.ttf';
+import './fonts/Cera-Pro/CeraPro-Medium.otf';
 import './index.css';
+import 'aos/dist/aos.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import AOS from 'aos';
+
+AOS.init();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
